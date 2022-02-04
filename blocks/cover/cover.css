@@ -1,0 +1,12 @@
+.cover {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1184px;
+  height: 740px;
+  padding-bottom: 92px;
+}
+
+
+
