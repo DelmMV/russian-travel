@@ -1,8 +1,16 @@
 .place__website {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  border-bottom: solid rgba(1, 1, 1, .0) 47px;
-  padding-left: 40px;
+  align-self: end;
+  margin-bottom: -3px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place__website {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    padding-left: 16px;
+  }
+}

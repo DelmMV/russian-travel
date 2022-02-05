@@ -1,5 +1,18 @@
 .place__paragraphs {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content 1fr;
+  grid-gap: 26px;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
+@media (max-width: 767px) {
+  .place__paragraphs {
+    padding: 0 0 0 16px;
+    grid-template-columns: 288px;
+    grid-template-rows: min-content 1fr;
+    grid-gap: 25px;
+  }
+}

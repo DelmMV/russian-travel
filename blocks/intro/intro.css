@@ -4,5 +4,26 @@
   flex-direction: column;
   max-width: 984px;
   margin: 0 auto;
-  padding: 92px 0 81px 0;
+  padding: 92px 0 90px 0;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    max-width: 720px;
+    padding: 93px 0 88px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    padding: 64px 0 64px 0;
+  }
+}
+
