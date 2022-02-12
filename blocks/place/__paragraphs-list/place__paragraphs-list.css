@@ -1,5 +1,14 @@
 .place__paragraphs-list {
   margin: 0;
-  padding: 0;
+  padding-bottom: 26px;
 }
 
+.place__paragraphs-list:last-child {
+  padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .place__paragraphs-list {
+    padding-bottom: 26px;
+  }
+}

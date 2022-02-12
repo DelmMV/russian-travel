@@ -1,7 +1,6 @@
 .header__lang-item {
   list-style: none;
   margin-right: 18px;
-  text-decoration-line: underline;
 }
 
 .header__lang-item:last-child {
